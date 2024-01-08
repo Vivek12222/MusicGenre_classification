@@ -4,14 +4,14 @@ This project focuses on predicting music genres using Principal Component Analys
 # Project Description:
 The project involves developing a machine learning model to accurately classify music styles based on audio data. The primary techniques used are PCA for dimensionality reduction and logistic regression for building the classification model.
 
-# Key Components:
-
-# Data: ### Raw data files should be placed in the 'data/raw/' directory.
-Notebooks: Three notebooks guide the project - 'data_exploration.ipynb' for dataset exploration, 'feature_engineering.ipynb' for extracting features, and 'model_training.ipynb' for implementing PCA and training the logistic regression model.
-Source Code: Python scripts in the 'src' directory handle data preprocessing ('preprocessing.py'), dimensionality reduction ('dimensionality_reduction.py'), and model training ('model.py').
-Installation: Clone the repository and install dependencies listed in 'requirements.txt'.
-Usage:
-Follow the notebooks sequentially for a step-by-step project walkthrough. The 'src' directory provides reusable source code for specific tasks.
+# Procedure
+1. The Dataset was provided by 365 data science. Initially the dataset is raw so data cleaning and data preprocessing methods was followed to convert raw data to clean data. 
+2. Standardization techniques and PCA methods was applied to the data set to achieve dimensionality reduction which is one of the crucial step to reduce multicollinearity.
+3. The given dataset was splitted into training and test data set using a scikit-learn module 
+4. Logistic regression - One of the classification machine learning algorithm was applied on given training data and the model was trained on the training dataset. The Logistic regression class was imported from 
+   sklearn and functions in Logistic Regression class was used to train the model on train data set
+5. After training the model was used on test dataset to predict the values. 
+6. The accuracy of given model is approximately 53.55%
 
 # License:
-This project is licensed under the MIT License.
+This project is licensed under the Apache License 2.0.
