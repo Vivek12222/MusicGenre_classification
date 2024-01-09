@@ -5,7 +5,7 @@ This project focuses on predicting music genres using Principal Component Analys
 The project involves developing a machine learning model to accurately classify music styles based on audio data. The primary techniques used are PCA for dimensionality reduction and logistic regression for building the classification model.
 
 # Procedure
-1. The Dataset was provided by 365 data science. Initially the dataset is raw so data cleaning and data preprocessing methods was followed to convert raw data to clean data. 
+1. The Dataset was provided by **365 data science**. Initially the dataset is raw so data cleaning and data preprocessing methods was followed to convert raw data to clean data. 
 2. Standardization techniques and PCA methods was applied to the data set to achieve dimensionality reduction which is one of the crucial step to reduce multicollinearity.
 3. The given dataset was splitted into training and test data set using a scikit-learn module 
 4. Logistic regression - One of the classification machine learning algorithm was applied on given training data and the model was trained on the training dataset. The Logistic regression class was imported from 
